@@ -17,6 +17,9 @@ export const Container = styled.div<ContainerProps>`
     justify-content: space-between;
 
     nav {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
       a {
         color: #fff;
         text-decoration: none;
